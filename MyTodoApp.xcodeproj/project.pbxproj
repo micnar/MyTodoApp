@@ -17,7 +17,6 @@
 		4CA6C55E2AE7163700BA61CA /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4CA6C55D2AE7163700BA61CA /* FirebaseAnalyticsSwift */; };
 		4CA6C5602AE7163700BA61CA /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 4CA6C55F2AE7163700BA61CA /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		4CA6C5622AE7163700BA61CA /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 4CA6C5612AE7163700BA61CA /* FirebaseAppCheck */; };
-		4CA6C5642AE7174B00BA61CA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CA6C5632AE7174B00BA61CA /* GoogleService-Info.plist */; };
 		4CA6C56A2AE718EA00BA61CA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA6C5692AE718EA00BA61CA /* ProfileView.swift */; };
 		4CA6C56C2AE7190000BA61CA /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA6C56B2AE7190000BA61CA /* ToDoListView.swift */; };
 		4CA6C56E2AE7190900BA61CA /* NewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA6C56D2AE7190900BA61CA /* NewItemView.swift */; };
@@ -38,6 +37,7 @@
 		4CA6C58D2AE7262F00BA61CA /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 4CA6C58C2AE7262F00BA61CA /* FirebaseAuth */; };
 		4CA6C58F2AE7292200BA61CA /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 4CA6C58E2AE7292200BA61CA /* FirebaseFirestore */; };
 		4CA6C5912AE729AB00BA61CA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA6C5902AE729AB00BA61CA /* Extensions.swift */; };
+		4CFAD4352AE860550037F336 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CFAD4342AE860550037F336 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,7 +46,6 @@
 		4CA6C54C2AE7155700BA61CA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		4CA6C54E2AE7155800BA61CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CA6C5512AE7155800BA61CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4CA6C5632AE7174B00BA61CA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4CA6C5692AE718EA00BA61CA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		4CA6C56B2AE7190000BA61CA /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
 		4CA6C56D2AE7190900BA61CA /* NewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemView.swift; sourceTree = "<group>"; };
@@ -65,6 +64,7 @@
 		4CA6C5872AE71C5300BA61CA /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		4CA6C5892AE721B500BA61CA /* TAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAButton.swift; sourceTree = "<group>"; };
 		4CA6C5902AE729AB00BA61CA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4CFAD4342AE860550037F336 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,7 +165,7 @@
 		4CA6C5682AE7185300BA61CA /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				4CA6C5632AE7174B00BA61CA /* GoogleService-Info.plist */,
+				4CFAD4342AE860550037F336 /* GoogleService-Info.plist */,
 				4CA6C54A2AE7155700BA61CA /* MyTodoAppApp.swift */,
 				4CA6C54E2AE7155800BA61CA /* Assets.xcassets */,
 				4CA6C5902AE729AB00BA61CA /* Extensions.swift */,
@@ -253,7 +253,7 @@
 			files = (
 				4CA6C5522AE7155800BA61CA /* Preview Assets.xcassets in Resources */,
 				4CA6C54F2AE7155800BA61CA /* Assets.xcassets in Resources */,
-				4CA6C5642AE7174B00BA61CA /* GoogleService-Info.plist in Resources */,
+				4CFAD4352AE860550037F336 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
